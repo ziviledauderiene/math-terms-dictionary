@@ -1,0 +1,117 @@
+@use "./colors" as *;
+@use "./mixins" as mixin;
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap");
+
+.header {
+  width: 75%;
+  margin: 0 auto;
+  z-index: 1;
+  ul {
+    list-style: none;
+    text-align: right;
+    li {
+      display: inline-block;
+      img {
+        height: 25px;
+        margin: 5px;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  h1 {
+    text-align: center;
+    font-family: "Grape Nuts", cursive;
+    font-size: 5rem;
+    margin-top: 0;
+  }
+}
+
+.search {
+  text-align: center;
+  &.sticky {
+    position: fixed;
+    top: 0;
+    background-color: #fdf4dd;
+    width: 100%;
+  }
+  .grades {
+    text-align: center;
+    p,
+    ul,
+    li {
+      display: inline-block;
+    }
+    ul {
+      list-style: none;
+      input {
+        display: none;
+      }
+      .grade-button {
+        display: inline-block;
+        width: 3.3rem;
+        height: 2rem;
+        padding: 0.3em;
+        margin: 0 0.2rem;
+        background-color: #264653;
+        outline: none;
+        border: none;
+        border-radius: 2px;
+        font-size: 1.1rem;
+        color: #f4a261;
+        &:hover {
+          background-color: #2a9d8f;
+          cursor: pointer;
+        }
+      }
+      // input:checked + label {
+      //   background-color: #2a9d8f;
+      // }
+    }
+  }
+  form {
+    padding: 1rem 0;
+    input {
+      width: 50%;
+      height: 3rem;
+      border: 1px solid;
+      outline: none;
+      padding: 0.5rem 1.5rem;
+      border-radius: 1.5rem;
+      font-size: 1rem;
+    }
+    svg {
+      position: relative;
+      right: 50px;
+      top: 0.2rem;
+    }
+  }
+}
+.main {
+  table {
+    margin: 5rem auto;
+    width: 72%;
+    border-collapse: collapse;
+    th,
+    td {
+      width: 18%;
+      padding: 0.5rem;
+    }
+    tr:nth-child(even) {
+      background-color: #e9c46a;
+    }
+    tr:nth-child(odd) {
+      background-color: #f4a261;
+    }
+    th {
+      text-transform: uppercase;
+      background-color: #e76f51;
+      font-size: 1.1rem;
+      .sortUp,
+      .sortDown {
+        cursor: pointer;
+      }
+    }
+  }
+}

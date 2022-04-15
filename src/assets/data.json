@@ -1,0 +1,328 @@
+[
+  {
+    "id": "1",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["7", "8"],
+    "translations": {
+      "lt": "Natūralusis skaičius",
+      "en": "Natural number",
+      "ru": "натуральнoе числo",
+      "ua": "натуральне число"
+    }
+  },
+  {
+    "id": "2",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["7", "8", "12"],
+    "translations": {
+      "lt": "Dešimtainė pozicinė sistema",
+      "en": "Decimal positional system",
+      "ru": "десятичная позиционная система счисления",
+      "ua": "десяткова (десятипозиційна) система числення"
+    }
+  },
+  {
+    "id": "3",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["9", "10", "11", "12"],
+    "translations": {
+      "lt": "Dvejetainė",
+      "en": "Binary",
+      "ru": "двоичная",
+      "ua": "двійковий, бінарний"
+    }
+  },
+  {
+    "id": "4",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+    "translations": {
+      "lt": "Tūkstantis",
+      "en": "Thousand",
+      "ru": "тысяча",
+      "ua": "тисяча"
+    }
+  },
+  {
+    "id": "5",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["2","4", "5", "6", "7", "8", "9", "10", "11", "12"],
+    "translations": {
+      "lt": "Milijonas",
+      "en": "Million",
+      "ru": "миллион",
+      "ua": "мільйон"
+    }
+  },
+  {
+    "id": "6",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["3", "4", "5", "6", "8", "9", "10", "11", "12"],
+    "translations": {
+      "lt": "Milijardas",
+      "en": "Billion",
+      "ru": "миллиард",
+      "ua": "мільярд"
+    }
+  },
+  {
+    "id": "7",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["3", "4", "5", "6", "7", "8", "9", "10","12"],
+    "translations": {
+      "lt": "Trilijonas",
+      "en": "Trillion",
+      "ru": "триллион",
+      "ua": "трильйон"
+    }
+  },
+  {
+    "id": "8",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["3", "4", "6", "7", "8", "9", "10", "11", "12"],
+    "translations": {
+      "lt": "Kvadrilijonas",
+      "en": "Quadrillion",
+      "ru": "квадриллион",
+      "ua": "квадрильйон"
+    }
+  },
+  {
+    "id": "9",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["7"],
+    "translations": {
+      "lt": "Natūralusis skaičius",
+      "en": "Natural number",
+      "ru": "натуральнoе числo",
+      "ua": "натуральне число"
+    }
+  },
+  {
+    "id": "10",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["2","7", "8"],
+    "translations": {
+      "lt": "Dešimtainė pozicinė sistema",
+      "en": "Decimal positional system",
+      "ru": "десятичная позиционная система счисления",
+      "ua": "десяткова (десятипозиційна) система числення"
+    }
+  },
+  {
+    "id": "11",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["4","9", "10", "11", "12"],
+    "translations": {
+      "lt": "Dvejetainė",
+      "en": "Binary",
+      "ru": "двоичная",
+      "ua": "двійковий, бінарний"
+    }
+  },
+  {
+    "id": "12",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["3", "4", "5", "6", "7", "8"],
+    "translations": {
+      "lt": "Tūkstantis",
+      "en": "Thousand",
+      "ru": "тысяча",
+      "ua": "тисяча"
+    }
+  },
+  {
+    "id": "13",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["7", "8", "9", "10", "11", "12"],
+    "translations": {
+      "lt": "Milijonas",
+      "en": "Million",
+      "ru": "миллион",
+      "ua": "мільйон"
+    }
+  },
+  {
+    "id": "14",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["3", "4", "5", "6", "11", "12"],
+    "translations": {
+      "lt": "Milijardas",
+      "en": "Billion",
+      "ru": "миллиард",
+      "ua": "мільярд"
+    }
+  },
+  {
+    "id": "15",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+    "translations": {
+      "lt": "Trilijonas",
+      "en": "Trillion",
+      "ru": "триллион",
+      "ua": "трильйон"
+    }
+  },
+  {
+    "id": "16",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+    "translations": {
+      "lt": "Kvadrilijonas",
+      "en": "Quadrillion",
+      "ru": "квадриллион",
+      "ua": "квадрильйон"
+    }
+  },
+  {
+    "id": "17",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+    "translations": {
+      "lt": "Kvadrilijonas",
+      "en": "Quadrillion",
+      "ru": "квадриллион",
+      "ua": "квадрильйон"
+    }
+  },
+  {
+    "id": "18",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["7", "8"],
+    "translations": {
+      "lt": "Natūralusis skaičius",
+      "en": "Natural number",
+      "ru": "натуральнoе числo",
+      "ua": "натуральне число"
+    }
+  },
+  {
+    "id": "19",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["7", "8"],
+    "translations": {
+      "lt": "Dešimtainė pozicinė sistema",
+      "en": "Decimal positional system",
+      "ru": "десятичная позиционная система счисления",
+      "ua": "десяткова (десятипозиційна) система числення"
+    }
+  },
+  {
+    "id": "21",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["9", "10", "11", "12"],
+    "translations": {
+      "lt": "Dvejetainė",
+      "en": "Binary",
+      "ru": "двоичная",
+      "ua": "двійковий, бінарний"
+    }
+  },
+  {
+    "id": "22",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+    "translations": {
+      "lt": "Tūkstantis",
+      "en": "Thousand",
+      "ru": "тысяча",
+      "ua": "тисяча"
+    }
+  },
+  {
+    "id": "23",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+    "translations": {
+      "lt": "Milijonas",
+      "en": "Million",
+      "ru": "миллион",
+      "ua": "мільйон"
+    }
+  },
+  {
+    "id": "24",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+    "translations": {
+      "lt": "Milijardas",
+      "en": "Billion",
+      "ru": "миллиард",
+      "ua": "мільярд"
+    }
+  },
+  {
+    "id": "25",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+    "translations": {
+      "lt": "Trilijonas",
+      "en": "Trillion",
+      "ru": "триллион",
+      "ua": "трильйон"
+    }
+  },
+  {
+    "id": "26",
+    "topics": [
+      { "name": "Aritmetika", "subtopic": "Dešimtainė pozicinė sistema" }
+    ],
+    "grade": ["3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+    "translations": {
+      "lt": "Kvadrilijonas",
+      "en": "Quadrillion",
+      "ru": "квадриллион",
+      "ua": "квадрильйон"
+    }
+  }
+  
+]

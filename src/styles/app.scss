@@ -33,43 +33,43 @@
   &.sticky {
     position: fixed;
     top: 0;
-    background-color: #fdf4dd;
+    background-color: #fff;
     width: 100%;
   }
-  .grades {
-    text-align: center;
-    p,
-    ul,
-    li {
-      display: inline-block;
-    }
-    ul {
-      list-style: none;
-      input {
-        display: none;
-      }
-      .grade-button {
-        display: inline-block;
-        width: 3.3rem;
-        height: 2rem;
-        padding: 0.3em;
-        margin: 0 0.2rem;
-        background-color: #264653;
-        outline: none;
-        border: none;
-        border-radius: 2px;
-        font-size: 1.1rem;
-        color: #f4a261;
-        &:hover {
-          background-color: #2a9d8f;
-          cursor: pointer;
-        }
-      }
-      // input:checked + label {
-      //   background-color: #2a9d8f;
-      // }
-    }
-  }
+  // .grades {
+  //   text-align: center;
+  //   p,
+  //   ul,
+  //   li {
+  //     display: inline-block;
+  //   }
+  //   ul {
+  //     list-style: none;
+  //     input {
+  //       display: none;
+  //     }
+  //     .grade-button {
+  //       display: inline-block;
+  //       width: 3.3rem;
+  //       height: 2rem;
+  //       padding: 0.3em;
+  //       margin: 0 0.2rem;
+  //       background-color: #264653;
+  //       outline: none;
+  //       border: none;
+  //       border-radius: 2px;
+  //       font-size: 1.1rem;
+  //       color: #f4a261;
+  //       &:hover {
+  //         background-color: #2a9d8f;
+  //         cursor: pointer;
+  //       }
+  //     }
+  //     // input:checked + label {
+  //     //   background-color: #2a9d8f;
+  //     // }
+  //   }
+  // }
   form {
     padding: 1rem 0;
     input {
@@ -84,7 +84,7 @@
     svg {
       position: relative;
       right: 50px;
-      top: 0.2rem;
+      top: 0.4rem;
     }
   }
 }
@@ -96,18 +96,18 @@
     th,
     td {
       width: 18%;
-      padding: 0.5rem;
+      padding: 1rem;
     }
     tr:nth-child(even) {
-      background-color: #e9c46a;
+      background-color: $pink;
     }
     tr:nth-child(odd) {
-      background-color: #f4a261;
+      background-color: $cream;
     }
     th {
       text-transform: uppercase;
-      background-color: #e76f51;
-      font-size: 1.1rem;
+      background-color: $red;
+      font-size: 1.3rem;
       .sortUp,
       .sortDown {
         cursor: pointer;

@@ -7,7 +7,7 @@ const Search = ({
 }) => {
   return (
     <section className={stickySearch ? "search sticky" : "search"} id="search">
-      <div className="grades">
+      {/* <div className="grades">
         <p>
           <b>Ieškokite terminų pagal klasę:</b>
         </p>
@@ -17,6 +17,7 @@ const Search = ({
               type="checkbox"
               value="1"
               id="grade1"
+              name="grade"
               onInput={(e) => setGrade(e.target.value)}
             />
             <label className="grade-button" htmlFor="grade1">
@@ -28,6 +29,7 @@ const Search = ({
               type="checkbox"
               value="2"
               id="grade2"
+              name="grade"
               onInput={(e) => setGrade(e.target.value)}
             />
             <label className="grade-button" htmlFor="grade2">
@@ -39,6 +41,7 @@ const Search = ({
               type="checkbox"
               value="3"
               id="grade3"
+              name="grade"
               onInput={(e) => setGrade(e.target.value)}
             />
             <label className="grade-button" htmlFor="grade3">
@@ -50,6 +53,7 @@ const Search = ({
               type="checkbox"
               value="4"
               id="grade4"
+              name="grade"
               onInput={(e) => setGrade(e.target.value)}
             />
             <label className="grade-button" htmlFor="grade4">
@@ -61,6 +65,7 @@ const Search = ({
               type="checkbox"
               value="5"
               id="grade5"
+              name="grade"
               onInput={(e) => setGrade(e.target.value)}
             />
             <label className="grade-button" htmlFor="grade5">
@@ -72,6 +77,7 @@ const Search = ({
               type="checkbox"
               value="6"
               id="grade6"
+              name="grade"
               onInput={(e) => setGrade(e.target.value)}
             />
             <label className="grade-button" htmlFor="grade6">
@@ -83,6 +89,7 @@ const Search = ({
               type="checkbox"
               value="7"
               id="grade7"
+              name="grade"
               onInput={(e) => setGrade(e.target.value)}
             />
             <label className="grade-button" htmlFor="grade7">
@@ -94,6 +101,7 @@ const Search = ({
               type="checkbox"
               value="8"
               id="grade8"
+              name="grade"
               onInput={(e) => setGrade(e.target.value)}
             />
             <label className="grade-button" htmlFor="grade8">
@@ -105,6 +113,7 @@ const Search = ({
               type="checkbox"
               value="9"
               id="grade9"
+              name="grade"
               onInput={(e) => setGrade(e.target.value)}
             />
             <label className="grade-button" htmlFor="grade9">
@@ -116,6 +125,7 @@ const Search = ({
               type="checkbox"
               value="10"
               id="grade10"
+              name="grade"
               onInput={(e) => setGrade(e.target.value)}
             />
             <label className="grade-button" htmlFor="grade10">
@@ -127,6 +137,7 @@ const Search = ({
               type="checkbox"
               value="11"
               id="grade11"
+              name="grade"
               onInput={(e) => setGrade(e.target.value)}
             />
             <label className="grade-button" htmlFor="grade11">
@@ -138,6 +149,7 @@ const Search = ({
               type="checkbox"
               value="12"
               id="grade12"
+              name="grade"
               onInput={(e) => setGrade(e.target.value)}
             />
             <label className="grade-button" htmlFor="grade12">
@@ -149,6 +161,7 @@ const Search = ({
               type="checkbox"
               value="visos"
               id="gradeVisos"
+              name="grade"
               onInput={(e) => setGrade(e.target.value)}
             />
             <label className="grade-button" htmlFor="gradeVisos">
@@ -157,12 +170,12 @@ const Search = ({
           </li>
         </ul>
         {grade}
-      </div>
+      </div> */}
 
       <form>
         <input
           type="text"
-          placeholder="Arba įveskite ieškomą žodį bet kuria kalba"
+          placeholder="Įveskite ieškomą žodį bet kuria kalba"
           onChange={(e) => {
             e.preventDefault();
             setSearchTerm(e.target.value);
